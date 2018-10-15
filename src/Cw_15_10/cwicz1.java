@@ -14,7 +14,7 @@ public class cwicz1 {
     public static void main(String[] args) {
             //Podzbiory2
             
-            program permutacji str 21 - przeanalizowac
+            //program permutacji str 21 - przeanalizowac
             
     }
 
