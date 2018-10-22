@@ -25,3 +25,4 @@ public class Fibonacci {
 
     }
 }
+// Zadanie 2.3.2, A.6
