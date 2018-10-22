@@ -21,7 +21,7 @@ public class Fibonacci {
 
     public static void main(String[] args) {
         int n = 5;
-        System.out.println("F(5) " + fib(n));
+        System.out.println("F(5) = " + fib(n));
 
     }
 }
