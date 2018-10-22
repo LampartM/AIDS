@@ -41,4 +41,4 @@ public class Permutacje {
     }
 }
 
-//Rozwiazac Problem przeprawy przez rzekę wilka, kozy i kapusty, A30!!!! 2.2.9
+//Rozwiazac Problem przeprawy przez rzekę wilka, kozy i kapusty, A30!!!! 2.2.9 str 22
