@@ -41,3 +41,6 @@ public class Reszta_zachlannie {
         System.out.println();
     }
 }
+
+
+//problem kosmonauty A.4
