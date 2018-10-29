@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cw_22_10;
+/*package cw_22_10;
 
 import java.util.Random;
 
-/**
+
  *
  * @author student
- */
+
 public class Losowanie {
     public static void main () {
         Random r1 = new Random();
@@ -27,3 +27,4 @@ public class Losowanie {
         
     }
 }
+*/

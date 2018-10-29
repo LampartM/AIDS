@@ -4,13 +4,11 @@
  * and open the template in the editor.
  */
 package cw_22_10;
-
+/*
 import java.util.Random;
 import java.util.Scanner;
-/**
- *
- * @author student
- */
+
+
 public class zgadywanie {
     
         public static void main(String[] args) {
@@ -45,3 +43,4 @@ public class zgadywanie {
  
     
 }
+*/
