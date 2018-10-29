@@ -15,7 +15,7 @@ public class WilkKozaKapusta {
 
     public static void main(String[] args) throws CloneNotSupportedException {
         Stan[] tab = new Stan[100];
-        tab[0] = new Stan(); // stan początkowy
+        tab[0] = new Stan(); 
         int i;
         for (i = 1; i < 100; i++) {
             tab[i] = tab[i - 1].nastepnyStan();
@@ -40,7 +40,7 @@ class Stan implements Cloneable {
     private boolean wilk, koza, kapusta;
     private static Random losuj = new Random();
 
-    boolean stanKoncowy() // czy stan koncowy ?
+    boolean stanKoncowy() 
     {
         return wilk && koza && kapusta;
     }
@@ -55,17 +55,17 @@ class Stan implements Cloneable {
         Stan nastepny = (Stan) clone();
         do {
             int i = losuj.nextInt(3);
-            if (i == 0 && (koza ^ kapusta)) // przewiezienie wilka
+            if (i == 0 && (koza ^ kapusta)) 
             {
                 nastepny.wilk = !wilk;
                 break;
             }
-            if (i == 1) // przewiezienie kozy
+            if (i == 1) 
             {
                 nastepny.koza = !koza;
                 break;
             }
-            if (i == 2 && (wilk ^ koza)) // przewiezienie kapusty
+            if (i == 2 && (wilk ^ koza))
             {
                 nastepny.kapusta = !kapusta;
                 break;

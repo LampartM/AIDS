@@ -5,14 +5,16 @@
  */
 package cw_22_10;
 
-import java.util.*;
-
+import java.util.Random;
+import java.util.Scanner;
 /**
  *
  * @author student
  */
 public class zgadywanie {
-     Random random = new Random();
+    
+        public static void main(String[] args) {
+        Random random = new Random();
         int liczba = random.nextInt(1000);
         Scanner pobierz = new Scanner(System.in);
 
@@ -40,5 +42,6 @@ public class zgadywanie {
                 System.out.println("Za duzo");
             }
         }
+ 
     
 }
