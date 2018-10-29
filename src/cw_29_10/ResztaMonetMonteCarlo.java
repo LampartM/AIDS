@@ -62,3 +62,4 @@ public class ResztaMonetMonteCarlo {
         System.out.println();
     }
 }
+//PRzeanalizowac
