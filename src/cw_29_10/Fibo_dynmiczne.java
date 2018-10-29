@@ -9,7 +9,7 @@ package cw_29_10;
  *
  * @author student
  */
-public class FiboDyn {
+public class Fibo_dynmiczne {
 
     public static void main(String[] args) {
         final int N = 5; // n-ty wyraz ciągu
