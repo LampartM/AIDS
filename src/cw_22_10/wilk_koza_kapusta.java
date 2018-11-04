@@ -5,17 +5,17 @@
  */
 package cw_22_10;
 
-import java.util.Random;
+import java.util.*;
 
 /**
  *
- * @author student
+ * @author Maciek
  */
-public class WilkKozaKapusta {
+public class wilk_koza_kapusta {
 
     public static void main(String[] args) throws CloneNotSupportedException {
         Stan[] tab = new Stan[100];
-        tab[0] = new Stan(); 
+        tab[0] = new Stan(); // stan początkowy
         int i;
         for (i = 1; i < 100; i++) {
             tab[i] = tab[i - 1].nastepnyStan();
@@ -38,9 +38,9 @@ public class WilkKozaKapusta {
 class Stan implements Cloneable {
 
     private boolean wilk, koza, kapusta;
-    private static Random losuj = new Random();
+    private static final Random losuj = new Random();
 
-    boolean stanKoncowy() 
+    boolean stanKoncowy() // czy stan koncowy ?
     {
         return wilk && koza && kapusta;
     }
@@ -52,20 +52,21 @@ class Stan implements Cloneable {
     }
 
     Stan nastepnyStan() throws CloneNotSupportedException {
+
         Stan nastepny = (Stan) clone();
         do {
             int i = losuj.nextInt(3);
-            if (i == 0 && (koza ^ kapusta)) 
+            if (i == 0 && (koza ^ kapusta)) // przewiezienie wilka
             {
                 nastepny.wilk = !wilk;
                 break;
             }
-            if (i == 1) 
+            if (i == 1) // przewiezienie kozy
             {
                 nastepny.koza = !koza;
                 break;
             }
-            if (i == 2 && (wilk ^ koza))
+            if (i == 2 && (wilk ^ koza)) // przewiezienie kapusty
             {
                 nastepny.kapusta = !kapusta;
                 break;
