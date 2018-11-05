@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cw_29_10;
+package cw_95_11;
 
 import java.io.*;
 import java.util.*;
@@ -62,4 +62,5 @@ public class ResztaMonetMonteCarlo {
         System.out.println();
     }
 }
-//PRzeanalizowac
+
+//Przerobic plecak metoda monte carlo - na kolosa
